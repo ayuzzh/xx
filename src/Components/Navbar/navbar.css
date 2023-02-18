@@ -4,14 +4,30 @@
 }
 
 .navbar {
-  background-color: black;
+  background: rgb(71,62,222);
+  background: linear-gradient(90deg, rgba(71,62,222,1) 0%, rgba(1,29,35,1) 100%);
   overflow: auto;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 24px;
 }
 
 .navbar li {
   float: left;
   margin: 20px 10px;;
   list-style: none;
+}
+
+.navbar__search-bar-box {
+  float: left;
+  overflow: auto;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.navbar__search-bar {
+  border:1px solid black;
+  border-radius: 20px;
+  hieght: parent-height;
 }
 
 .navbar li a {
